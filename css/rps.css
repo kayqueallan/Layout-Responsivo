@@ -1,0 +1,96 @@
+@media screen and (max-width: 950px) {
+  .menu {
+    display: none;
+  }
+  .navbar {
+    position: relative;
+  }
+  .logo {
+    text-align: center;
+    margin: 0;
+  }
+  .header {
+    padding: 40px;
+    margin: 0px;
+    width: 100%;
+    flex: 100%;
+  }
+  .headline {
+    flex: 100%;
+    width: 110%;
+    margin: 0px;
+    text-align: center;
+  }
+  #titulo1 {
+    letter-spacing: 10px;
+    font-size: 12px;
+    flex: left;
+    text-align: center;
+  }
+  #titulo2 {
+    font-size: 63px;
+  }
+  #titulo3 {
+    font-size: 63px;
+  }
+  #text {
+    width: 100%;
+    font-size: 17px;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #titulo1 {
+    letter-spacing: 8px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  #titulo2 {
+    font-size: 45px;
+  }
+  #titulo3 {
+    font-size: 45px;
+  }
+  #text {
+    width: 100%;
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  #link {
+    padding: 8px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #titulo1 {
+    letter-spacing: 6px;
+    font-size: 8px;
+    text-align: center;
+  }
+
+  #titulo2 {
+    font-size: 34px;
+  }
+  #titulo3 {
+    font-size: 34px;
+  }
+  #text {
+    width: 100%;
+    text-align: justify;
+    font-size: 12px;
+  }
+  #link {
+    padding: 5px;
+    font-size: 13px;
+  }
+  footer {
+    border: none;
+  }
+}
